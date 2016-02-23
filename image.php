@@ -5,7 +5,7 @@ $white = imagecolorallocate($im, 255, 255, 255);
 $blue = imagecolorallocate($im, 0, 0, 255);
 $green = imagecolorallocate($im, 0, 255, 0);
 
-// Draw a filled rectangle //comment
+// Draw a filled rectangle
 //imagefilledrectangle($im, 0, 0, 199, 199, $blue);
 //imagefilledrectangle($im, 0, 0, 199, 199, $green);
 imagefilledrectangle($im, 0, 255, 255, 255, $white);
